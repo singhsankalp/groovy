@@ -1,6 +1,6 @@
 job('DSL-Tutorial-1-Test') {
     scm {
-        git('git://github.com/jgritman/aws-sdk-test.git')
+        perforce('ssl:perforce.ges.symantec.com:1666')
     }
     triggers {
         scm('*/15 * * * *')
